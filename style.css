@@ -1,0 +1,138 @@
+body{
+    padding: 0;
+    margin:0;
+    background-color:rgb(0,0,0);
+}
+
+.menu{
+    text-align:left;
+}
+
+.menu ul{
+    display:inline-flex;
+    list-style: none;
+}
+
+.menu ul li {
+    margin: 25px;
+    position: relative;
+}
+
+.menu ul li a {
+    padding: 8px;
+    color:red;
+    font-size: 30px;
+    text-decoration: none;
+    border-bottom:2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    position: relative;
+}
+
+.search {
+    top:24px;
+    right:20px;
+    position: absolute;
+    border: 2px solid red;
+}
+
+.search input{
+    font-size: 25px;
+    border: 1px solid rgb(255, 0, 0);
+    margin: 8px;
+    padding:8px;
+    border-radius: 10px;
+
+}
+
+.content h2 {
+font-size: 50px;
+color: rgb(255, 0, 0);
+margin-left: 5%;
+margin-top: 4%;
+text-align: left;
+text-shadow: 14px 14px 14px #fff;
+}
+
+.content b {
+    color: red;
+    font-size:100px;
+}
+
+.content p {
+    text-align: left;
+    font-size: 20px;
+    margin-left: 60px;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.photo{
+    width:70%;
+    float: right;
+}
+
+.photo img {
+    width: 80%;
+    margin-top: -250px;
+    margin-left:250px;
+    border-radius: 30%;
+}
+
+.font {
+    left: 72px;
+    bottom: 45px;
+    position: absolute;
+
+}
+
+.font ul i {
+    list-style: none;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.font ul li a {
+    text-decoration: none;
+}
+
+.font ul a i{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    border: 3px solid red;
+    border-radius: 50%;
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.button {
+    position: absolute;
+    top:60%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+}
+
+.btn { 
+    color:rgb(255, 255, 255);
+   border: 3px solid rgb(255, 0, 0);
+   padding: 12px;
+   text-decoration: none;
+   border-radius: 30px;
+   font-weight: bold;
+}
+
+.menu ul li a:hover {
+    color:rgb(247, 235, 235);
+}
+
+.content h2:hover{
+    text-shadow: 14px 14px 14 px rgb(218, 2, 2);
+}
+
+.btn:hover{
+    background: #ff0000;
+}
+
+.font ul a i:hover {
+    background: #ff0000;
+}
